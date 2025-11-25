@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://lemonmall.kz/sitemap.xml
+Sitemap: https://huage.kz/sitemap.xml
