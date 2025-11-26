@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Главная страница -->
-  <url>
-    <loc>https://huage.kz/</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+    <!-- Басты бет -->
+    <url>
+        <loc>https://huage.kz/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
-  <!-- Страница благодарности -->
-  <url>
-    <loc>https://huage.kz/thank-you.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Дополнительно — можно добавить FAQ как секцию на главной (не отдельная страница) -->
-  <!-- Можно добавить другие страницы, если появятся -->
+    <!-- Рақмет беті -->
+    <url>
+        <loc>https://huage.kz/thank-you.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
 </urlset>
