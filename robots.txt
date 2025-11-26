@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /videos/
 
 Sitemap: https://huage.kz/sitemap.xml
