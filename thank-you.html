@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="kk">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Спасибо! Ваша заявка отправлена — HUAGE</title>
+  <title>Рахмет! Өтінішіңіз жіберілді — HUAGE</title>
 
   <meta name="description"
-        content="Спасибо! Ваша заявка успешно отправлена. Официальный партнёр HUAGE свяжется с вами в ближайшее время." />
+        content="Рахмет! Сіздің өтінішіңіз сәтті жіберілді. HUAGE ресми серіктесі жақын арада сізбен байланысады." />
   <meta name="robots" content="noindex,follow" />
   <link rel="canonical" href="https://huage.kz/thank-you.html" />
 
-  <!-- Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
   <style>
@@ -22,9 +21,7 @@
       --text-soft: #b7b7c4;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -61,7 +58,6 @@
       overflow: hidden;
     }
 
-    /* «конфетти» */
     .sparkle {
       position: absolute;
       width: 6px;
@@ -161,22 +157,15 @@
     }
 
     @media (max-width: 480px) {
-      .wrapper {
-        padding: 26px 18px;
-      }
-      h1 {
-        font-size: 20px;
-      }
-      p {
-        font-size: 14px;
-      }
+      .wrapper { padding: 26px 18px; }
+      h1 { font-size: 20px; }
+      p { font-size: 14px; }
     }
   </style>
 </head>
 <body>
 
   <div class="wrapper">
-    <!-- «конфетти» -->
     <div class="sparkle"></div>
     <div class="sparkle"></div>
     <div class="sparkle"></div>
@@ -187,31 +176,32 @@
       <span>✔</span>
     </div>
 
-    <h1>Спасибо за доверие!</h1>
+    <h1>Сеніміңізге рахмет!</h1>
+
     <p>
-      <span class="highlight">Ваша заявка успешно отправлена</span> в HUAGE.
+      <span class="highlight">Сіздің өтінішіңіз сәтті жіберілді</span> — HUAGE командасына.
     </p>
+
     <p>
-      Официальный партнёр свяжется с вами в&nbsp;ближайшее время, чтобы ответить на вопросы
-      и помочь с дальнейшими шагами.
+      Ресми серіктес жақын арада сізбен хабарласып, барлық сұрақтарыңызға жауап береді
+      және келесі қадамдарды түсіндіреді.
     </p>
 
     <p class="small-note">
-      Пожалуйста, держите телефон и WhatsApp под рукой — мы напишем или позвоним вам совсем скоро.
+      Телефон мен WhatsApp-ты жақын ұстаңыз — біз сізге өте жақын уақытта хабарласамыз.
     </p>
 
     <a href="https://huage.kz" class="btn-back">
-      Вернуться на главный сайт
+      Басты бетке оралу
       <span>↩</span>
     </a>
 
     <div class="timer" id="timer">
-      Вы будете автоматически возвращены на сайт через 10 секунд...
+      Сіз 10 секунд ішінде сайтқа автоматты түрде қайта бағытталасыз...
     </div>
   </div>
 
   <script>
-    // Авто-редирект назад на главную через 10 секунд
     let seconds = 10;
     const timerEl = document.getElementById('timer');
 
@@ -221,7 +211,7 @@
         clearInterval(interval);
         window.location.href = 'https://huage.kz';
       } else if (timerEl) {
-        timerEl.textContent = 'Вы будете автоматически возвращены на сайт через ' + seconds + ' секунд...';
+        timerEl.textContent = 'Сіз ' + seconds + ' секунд ішінде автоматты түрде қайта бағытталасыз...';
       }
     }, 1000);
   </script>
